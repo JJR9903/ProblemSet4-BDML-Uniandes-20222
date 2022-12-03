@@ -152,7 +152,7 @@ diccionario_lemmatizador16<-data.frame(corpus = diccionario_lemmatizador[16001:1
 diccionario_lemmatizador_append<-bind_rows(diccionario_lemmatizador1,diccionario_lemmatizador2,diccionario_lemmatizador3,diccionario_lemmatizador4,
                                            diccionario_lemmatizador5,diccionario_lemmatizador6,diccionario_lemmatizador7,diccionario_lemmatizador8,
                                            diccionario_lemmatizador9,diccionario_lemmatizador10,diccionario_lemmatizador11,diccionario_lemmatizador12,
-                                           diccionario_lemmatizador13,diccionario_lemmatizador14,diccionario_lemmatizador15)
+                                           diccionario_lemmatizador13,diccionario_lemmatizador14,diccionario_lemmatizador15,diccionario_lemmatizador16)
 
 saveRDS(diccionario_lemmatizador_append,"stores/diccionario_lemmatizador_append.rds")
 ##### frecuencia 
